@@ -1,4 +1,4 @@
-**Mise en contexte**
+c**Mise en contexte**
 Les systèmes microélectromécaniques (MEMS) sont partout. Votre téléphone contient un accéléromètre qui détecte l'orientation de l'écran. Le Groupe Aérospatial de l'Université Laval (GAUL) instrumente ses fusées avec des accéléromètres pour enregistrer le profil d'accélération pendant le vol. Ces capteurs reposent sur un principe que vous connaissez bien : le condensateur. Dans ce projet, vous analyserez un accéléromètre MEMS capacitif en utilisant les concepts d'électrostatique vus en classe, puis vous le concevrez pour une application en conditions extrêmes.
 
 **L'accéléromètre capacitif à peignes interdigités**
