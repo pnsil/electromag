@@ -108,6 +108,19 @@ DESIGN_Q1 = MEMSDesign(
 DESIGN_Q2 = MEMSDesign(
     name       = "Q2 — Fusée GAUL (±50 g)",
     k          = 5.0,       # raideur ×5 → 5× moins de déplacement à pleine échelle
+    m          = 1e-6,
+    d0         = 2e-6,
+    N          = 100,       # ×2 paires pour compenser la perte de sensibilité
+    L          = 400e-6,    # ×2 longueur
+    t          = 3e-6,
+    V0         = 3.0,
+    pixel_size = 0.25e-6,
+    N_sim      = 6,
+)
+
+DESIGN_Q1_1 = MEMSDesign(
+    name       = "Q2 — Fusée GAUL (±50 g)",
+    k          = 5.0,       # raideur ×5 → 5× moins de déplacement à pleine échelle
     m          = 1e-9,
     d0         = 2e-6,
     N          = 100,       # ×2 paires pour compenser la perte de sensibilité
@@ -587,7 +600,7 @@ if __name__ == "__main__":
     print(f"\n  Temps total Q1 : {time.time()-t0:.1f} s")
 
     afficher_resume(DESIGN_Q1, a1, C1)
-    figure_Q1(DESIGN_Q1, a1, C1)
+    figure_Q1(DESIGN_Q1_1, a1, C1)
 
     # ── Question 2 ──────────────────────────────────────────────────────────
     print(f"\n[ Q2 ]  Design fusée GAUL — balayage C(a)")
