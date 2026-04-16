@@ -79,3 +79,7 @@ $$
 \frac{dC}{da}: \, \frac{d}{da}\left( \Delta C \right) =\frac{2C_{0}m}{kd_{0}}
 $$
 On considere $\epsilon_{r}=1$ pour lEQ ci-haut, mais dans la vraie vie ya des trucs genre une couche doxydation qui ferait que cest pas vrai
+
+page 16 de ubc_2008_fall_kannan_akila.pdf.pdf, pull in au 2/3 de la distance
+page 22 figure + EDO
+page 26 graph
